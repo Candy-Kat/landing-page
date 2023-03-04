@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+
+}
+
+
+
+.header {
+    background-image: url(/img/mountain.jpg);
+    background-size: cover;
+    height: 700px;
+    color: #fff; 
+    padding-top: 2rem;
+}
+    
+ 
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+.container-top {
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1,5;
+}
+
+.header-text {
+    margin-bottom: 2rem;
+}
+
+.header-title {
+    margin-bottom: 1rem;
+}
+
+.info {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.info-title {
+    margin-bottom: 2rem;
+}
+
+.boxes {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-container {
+    border: 3px solid #146aff;
+    min-width: 212px;
+    min-height: 212px;
+}
+
+.quote {
+    height: 250px;
+    background-color: rgb(0, 89, 153);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+
+}
+
+
+.footer {
+    height: 100px;
+    background-color: rgb(0, 10, 67);
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+   
+}
+
+.footer-text{
+    margin-top: 2rem;
+}
