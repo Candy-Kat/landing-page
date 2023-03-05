@@ -18,7 +18,7 @@
 
 
 .header {
-    background-image: url(/img/mountain.jpg);
+    background-image: url(img/mountain.jpg);
     background-size: cover;
     height: 700px;
     color: #fff; 
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .call-to-action {
-    background-image: url(/img/cta-background.jpg);
+    background-image: url(img/cta-background.jpg);
     background-size: cover;
     height: 300px;
     display: flex;
