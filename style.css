@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +11,10 @@
 
 }
 
+.logo {
+    font-family: 'Advent Pro', sans-serif;;
+    font-size: 50px;
+}
 
 
 .header {
@@ -46,6 +56,11 @@ a:hover {
     padding: 0 30px;
 }
 
+.element-container {
+    font-size: 20px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
 
 .container-top {
     text-align: center;
@@ -55,56 +70,100 @@ a:hover {
 
 .header-text {
     margin-bottom: 2rem;
+    font-family: 'Monsterrat', sans-serif;
+    text-shadow: 0 0 10px #000;
 }
 
 .header-title {
     margin-bottom: 1rem;
+    font-size: 55px;
+    font-family: 'Dancing Script', sans-serif;
 }
+
+.header-button {
+	background-color:#006996;
+	border-radius:11px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Monsterrat', sans-serif;
+	font-size:18px;
+	padding:11px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 23px #000000;
+}
+.header-button:hover {
+	background-color:#c7daed;
+}
+.header-button:active {
+	position:relative;
+	top:1px;
+}
+
+        
+        
+
 
 .info {
     text-align: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+    height: 300px;
 }
 
 .info-title {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 55px;
 }
 
 .boxes {
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 8rem;
+    font-family: 'Monsterrat', sans-serif;
 }
 
 .img-container {
-    border: 3px solid #146aff;
-    min-width: 212px;
-    min-height: 212px;
+   max-width: 150px;
+   max-height: 150px;
+   gap: 3rem;
+   text-align: left;
 }
 
-.quote {
+.quote-container {
     height: 250px;
     background-color: rgb(0, 89, 153);
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #ffffffea;
+}
+
+.quote {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 35px;
 }
 
 .call-to-action {
-    height: 250px;
+    background-image: url(/img/cta-background.jpg);
+    background-size: cover;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 200px;
+    font-family: 'Monsterrat', sans-serif;
 
 }
 
 
 .footer {
     height: 100px;
-    background-color: rgb(0, 10, 67);
+    background-color: rgb(0, 89, 153);
     text-align: center;
     color: #fff;
     padding: 2rem;
@@ -112,5 +171,55 @@ a:hover {
 }
 
 .footer-text{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 16px;
+    color: #c7daed;
 }
+
+.box{
+    width: 150px;
+    height:150px;
+    border: 3px solid #146aff;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.cta-text {
+    color: #fff;
+    font-size: 75px;
+    text-shadow: 0 0 10px #000;
+    
+}
+
+.cta-undertext {
+
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 0 0 10px #000;
+    
+
+}
+
+.cta-button {
+    background-color:rgba(255, 255, 255, 0.5);
+	border: solid 3px #006996;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:35px;
+	padding:22px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 23px #000000;
+}
+.cta-button:hover {
+	background-color:#c7daed;
+}
+.cta-button:active {
+	position:relative;
+	top:1px;
+}
+
+        
